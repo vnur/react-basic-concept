@@ -1,0 +1,33 @@
+.pagination-container {
+  color: white;
+  display: flex;
+  gap: 2rem;
+  flex-direction: column;
+  padding-top: 2rem;
+}
+
+.card {
+  padding: 2rem;
+  border-radius: 2rem;
+
+  &:hover {
+    background-color: white;
+    color: black;
+  }
+}
+
+.buttons-group {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 5rem;
+}
+
+.buttons-group button, .buttons-group span {
+  padding: 2rem 4rem;
+  border-radius: 2rem;
+  border: 1px solid red;
+  letter-spacing: 0.1rem;
+  color: white;
+  background-color: black;
+}
+
