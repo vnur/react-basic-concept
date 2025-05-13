@@ -1,5 +1,9 @@
+import "./footer.css"
+
 export const Footer = ()=>{
      return (
-        <h1> footer works</h1>
+      <div className="footer-container">
+     <div>&copy; {new Date().getFullYear()} vinu &trade; &reg; All right Reserved</div>
+      </div>
      )
 }
